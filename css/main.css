@@ -755,8 +755,7 @@ body {
   top: 90px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  z-index: 100
+  transform: translateX(-50%)
 }
 @media screen and (max-width:1700px) {
   .swiper .swiper-buttons {
@@ -831,11 +830,6 @@ body {
     height: 21px
   }
 }
-.swiper .swiper-button-prev:hover {
-  -webkit-transform: translate(-50%,6px);
-  transform: translate(-50%,6px);
-  opacity: .6
-}
 .swiper .swiper-button-next {
   display: block;
   position: relative;
@@ -858,11 +852,6 @@ body {
     width: 20px;
     height: 21px
   }
-}
-.swiper .swiper-button-next:hover {
-  -webkit-transform: translate(-50%,-6px);
-  transform: translate(-50%,-6px);
-  opacity: .6
 }
 .swiper .swiper-slide {
   height: 100%;
